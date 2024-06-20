@@ -1,0 +1,138 @@
+/* styles.css */
+
+/* Resetting default margin and padding */
+body, h1, h2, h3, p, ul {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling for header */
+header {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 0; /* 上下各增加 10px 的内边距 */
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+}
+
+nav ul li a:hover {
+    background-color: #ccc;
+}
+
+/* Main section styles */
+main {
+    padding: 40px;
+}
+
+section {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
+
+section h2{
+    text-align: center;
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section h3{
+    text-align: center;
+    color: #333;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Container for main content */
+#mainContainer {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Reset some default styles for tables */
+table {
+    width: 100%;
+    border-collapse: collapse; /* Collapse table borders */
+}
+
+/* Style for table headers */
+thead {
+    background-color: #f0f0f0; /* Light gray background for headers */
+}
+
+th, td {
+    padding: 10px; /* Padding inside table cells */
+    border: 1px solid #ccc; /* Add borders to cells */
+    text-align: left; /* Align text to the left within cells */
+}
+
+th {
+    background-color: #e0e0e0; /* Medium gray background for header cells */
+}
+
+/* Optional: Styling for odd and even rows */
+tbody tr:nth-child(odd) {
+    background-color: #f9f9f9; /* Alternate row background color */
+}
+
+tbody tr:hover {
+    background-color: #e0e0e0; /* Hover background color */
+}
+
+/* Other */
+p {
+    text-align: center;
+}
